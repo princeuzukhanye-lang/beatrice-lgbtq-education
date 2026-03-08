@@ -1,8 +1,8 @@
 /* General Page Styling */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #f4f8fb; /* light tech blue background */
+  color: #222;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-  background: #6a1b9a;   /* Deep purple for professionalism */
+  background: linear-gradient(90deg, #1976d2, #64b5f6); /* tech blue gradient */
   color: white;
   padding: 1.5em;
   text-align: center;
@@ -29,13 +29,13 @@ nav {
 
 nav a {
   margin: 0 12px;
-  color: #6a1b9a;
+  color: #1976d2;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #ff4081; /* Accent pink on hover */
+  color: #ff4081; /* rainbow accent pink */
 }
 
 /* Main Content */
@@ -48,27 +48,25 @@ main {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-section {
-  margin-bottom: 2em;
-}
-
 h2 {
-  color: #6a1b9a;
+  color: #1976d2;
 }
 
-/* Images */
+/* Rainbow Accent Borders for Images */
 img {
   margin: 15px 0;
   border-radius: 8px;
   max-width: 100%;
   height: auto;
   display: block;
+  border: 6px solid;
+  border-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet) 1;
 }
 
 /* Footer */
 footer {
-  background: #eee;
-  color: #555;
+  background: #1976d2;
+  color: white;
   text-align: center;
   padding: 1em;
   margin-top: 2em;
